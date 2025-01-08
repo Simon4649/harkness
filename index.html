@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harkness Student Tracker</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Harkness Student Tracker</h1>
+    <div class="controls">
+      <input type="file" id="uploadFile" accept=".csv" style="display: none;" />
+      <button id="importStudentListBtn" class="modern-button">Import Student List</button>
+      <button id="addStudentBtn" class="modern-button">Add Student</button>
+      <button id="removeStudentBtn" class="modern-button">Remove Student</button>
+      <button id="exportDataBtn" class="modern-button">Export Data</button>
+    </div>
+    <div class="chart-container">
+      <canvas id="studentChart"></canvas>
+    </div>
+    <div class="harkness-container">
+      <canvas id="harknessDiagram"></canvas>
+    </div>
+    <div id="dropdownMenu" class="dropdown-menu" style="display: none;">
+      <button id="addQuestionBtn" class="modern-button dropdown-item">Add Question</button>
+      <button id="addInsightBtn" class="modern-button dropdown-item">Add Insight</button>
+      <button id="addInteractionBtn" class="modern-button dropdown-item">Add Interaction</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Copyright © 2024 Denla International School</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+

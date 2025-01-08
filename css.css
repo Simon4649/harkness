@@ -1,0 +1,152 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #0074D9;
+  padding: 10px 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Controls Section */
+.controls {
+  margin: 20px 0;
+}
+
+/* Chart Container */
+.chart-container {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+.chart-container canvas {
+  height: 250px; /* Set chart height */
+}
+
+/* Harkness Diagram Container */
+.harkness-container {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Modern Buttons */
+.modern-button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modern-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 200px; /* Increased width for better button fit */
+  z-index: 1000;
+  text-align: center; /* Center dropdown items */
+}
+
+/* Dropdown Buttons */
+.dropdown-item {
+  display: block;
+  margin: 5px auto; /* Center the buttons */
+  width: 90%; /* Ensure the buttons fit inside the dropdown */
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: white; /* Make text color consistent */
+}
+
+/* Dropdown Button Colors */
+#addQuestionBtn {
+  background-color: rgba(75, 192, 192, 0.6); /* Light blue for Questions */
+}
+
+#addInsightBtn {
+  background-color: rgba(153, 102, 255, 0.6); /* Light purple for Insights */
+}
+
+#addInteractionBtn {
+  background-color: rgba(255, 159, 64, 0.6); /* Light orange for Interactions */
+}
+
+/* Hover Effect for Dropdown Buttons */
+#addQuestionBtn:hover {
+  background-color: rgba(75, 192, 192, 0.8); /* Slightly darker blue */
+}
+
+#addInsightBtn:hover {
+  background-color: rgba(153, 102, 255, 0.8); /* Slightly darker purple */
+}
+
+#addInteractionBtn:hover {
+  background-color: rgba(255, 159, 64, 0.8); /* Slightly darker orange */
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0074D9;
+  color: white;
+  font-size: 14px;
+}
+
+
+
+
